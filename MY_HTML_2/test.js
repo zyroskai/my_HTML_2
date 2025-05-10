@@ -6,4 +6,4 @@ fun : function tem(){
                      }
              }
    console.log(sum.tem);
-
+/*node js object*/
