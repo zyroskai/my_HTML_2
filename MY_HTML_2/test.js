@@ -74,7 +74,7 @@ console.log(arrays);
 /*it's also possible to add objects into array while copying elements in array using spread operator*/
 const food = {fruit:'apple'};
 const eat = {...food, veg:'carrot'};
-console.log(eat);
+console.log(eat,food);
 
 
 
