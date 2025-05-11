@@ -32,3 +32,21 @@ arrays.push('cat')
 
 console.log(arrays1);
 console.log(arrays);
+
+/*copy elements in array with spread operator*/
+const arrays = ['apple','ball']
+const arrays1 = [...arrays]
+
+arrays1.push('cat')
+
+console.log(arrays1);
+console.log(arrays);
+
+/*copy elements in array without spread operator*/
+const arrays = ['apple','ball']
+const arrays1 = [arrays]
+
+arrays1.push('cat')
+
+console.log(arrays1);
+console.log(arrays);
