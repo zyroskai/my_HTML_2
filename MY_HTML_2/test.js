@@ -50,6 +50,17 @@ console.log(arrays);
 
 
 
+/*it's also possible to add elements into array while copying elements in array using spread operator*/
+const arrays = ['apple','ball']
+const arrays1 = [...arrays,'cat']
+
+arrays1.push('dog')
+
+console.log(arrays1);
+console.log(arrays);
+
+
+
 /*copy elements in array without spread operator*/
 const arrays = ['apple','ball']
 const arrays1 = [arrays]
@@ -58,3 +69,9 @@ arrays1.push('cat')
 
 console.log(arrays1);
 console.log(arrays);
+
+
+
+
+
+
