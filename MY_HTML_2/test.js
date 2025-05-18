@@ -77,4 +77,14 @@ const eat = {...food, veg:'carrot'};
 console.log(eat,food);
 
 
+/* Print elements in array using he below methods*/
+const hobbies = ['sports','cookies',2];
+for(const hobby of hobbies)
+{
+console.log(hobby+' test');
+}
+--------------------------------------------------------------
+console.log(hobbies.map((hobby)=> { return hobby+'test'}));
+--------------------------------------------------------------
+console.log(hobbies.map((hobby)=> hobby+'test'));
 
